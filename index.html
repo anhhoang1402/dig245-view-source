@@ -1,15 +1,113 @@
 <!DOCTYPE html>
 <html>
-<head>
 
 <!-- meta tags, links to css, etc. -->
-<title>DIG 245 View Source</title>
+
+<head>
+  <title>DIG 245 View Source</title>
+  <link href="assets/css/styles.css" type="text/css" rel="stylesheet">
+
+  <style>
+    h1 {
+      font-size: 40px;
+      font-weight: bold;
+      color: blue;
+    }
+  </style>
+
 
 </head>
+
+<!-- main content -->
+
 <body>
 
-<!-- visible content goes here -->
-<h1>DIG 245 View Source</h1>
+  <h1>DIG 245 View Source</h1>
 
+  <p> Instructions for viewing source code of a webpage in Google Chrome </p>
+  <ol>
+    <li> Open the browser and go to the webpage you want to view the source
+      code of </li>
+    <li> On that webpage, right-click on the page and click on "Inspect"
+      or "View Page Source"</li>
+    <li> You can now see the source code for the webpage! </li>
+  </ol>
+
+  <p> Things you can do with the Dev Tools </p>
+  <ul>
+    <li> Debug your code </li>
+    <li> Add Javascript elements to your code in console </li>
+    <li> Check your design on different devices </li>
+  </ul>
+
+  <p> Metaphor </p>
+  Using dev tools is like being given the recipe for the dish you just taste.
+  You get the see all the ingredients that help make the dish and the steps
+  needed to create it. You can copy some of the instructions in
+  the recipe and try it out on your own and make changes accordingly to fit your
+  own taste when you make a similar dish.
+
+  <p> A website with interesting content in the console: RavenCode</p>
+
+  <a href="https://www.ravencode.co/" target="_blank"> <img src="C:\Users\hoang\dig245-view-source\assets\img\Interesting.jpg" height="400" width="600" /> </a>
+
+  <p> Favorite Animal
+  <p>
+
+    <img src="C:\Users\hoang\dig245-view-source\assets\img\dog.jpg" height="400" width="600" />
+
+  <script>
+    console.log("My favorite band is Mamamoo")
+  </script>
+
+
+    <!-- create a table for dream schedule -->
+  <p> Weekly Dream Schedule
+  <p>
+  <table>
+
+    <!-- first row of the table for headings -->
+    <thead>
+      <tr>
+        <th></th>
+        <th scope="col"> Monday </th>
+        <th scope="col"> Tuesday </th>
+        <th scope="col"> Wednesday </th>
+        <th scope="col"> Thursday </th>
+        <th scope="col"> Friday </th>
+        <th scope="col"> Saturday </th>
+        <th scope="col"> Sunday </th>
+
+      </tr>
+    </thead>
+
+    <!-- second row of the table -->
+    <tbody>
+
+      <tr>
+        <th scope="row"> Morning </th>
+        <td colspan="2"> Reading Books </td>
+        <td colspan="2"> Playing Video Games </td>
+        <td colspan="3" rowspan="3"> Going on trips with friends and family </td>
+      </tr>
+
+      <!-- third row of the table -->
+
+      <tr>
+        <th scope="row"> Afternoon </th>
+        <td colspan="2"> Going to the gym </td>
+        <td colspan="2"> Running around forests </td>
+      </tr>
+
+      <tr>
+        <th scope="row"> Evening </th>
+        <td colspan="4"> Hanging out with friends </td>
+      </tr>
+
+    </tbody>
+
+  </table>
+  <!-- visible content goes here -->
 </body>
+
 </html>
